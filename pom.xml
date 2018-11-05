@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>CRM</name>
-	<description>Demo project for Spring Boot</description>
+	<description>CRM Software project for Extreme Auto Part</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -25,6 +25,7 @@
 	</properties>
 
 	<dependencies>
+	
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -62,7 +63,13 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+    <groupId>org.apache.tomcat.embed</groupId>
+    <artifactId>tomcat-embed-jasper</artifactId>
+    <scope>provided</scope>
+  </dependency>
 	</dependencies>
+	
 
 	<build>
 		<plugins>

@@ -1,4 +1,4 @@
-package com.extremecrm;
+package com.extremecrmtask;
 
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
